@@ -1,0 +1,106 @@
+.input {
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+}
+.input:focus {
+  outline: none;
+}
+
+.error {
+  font: var(--font-m);
+  color: #ff3535;
+  padding-left: 25px;
+  height: 15px;
+  position: relative;
+  bottom: 5px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: var(--primary-color);
+  font: var(--font-l);
+}
+
+input::-moz-placeholder,
+textarea:-moz-placeholder {
+  color: var(--primary-color);
+  font: var(--font-l);
+}
+
+input[type=datetime-local] {
+  color: var(--primary-color);
+  font: var(--font-l);
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.inputEye {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputFont {
+  position: absolute;
+  margin-right: 80px;
+}
+
+@media (max-width: 1199px) {
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 32px;
+  }
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    font-size: 32px;
+  }
+  input[type=datetime-local] {
+    font-size: 32px;
+    color: var(--primary-color);
+  }
+}
+@media (max-width: 991px) {
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 28px;
+  }
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    font-size: 28px;
+  }
+  input[type=datetime-local] {
+    font-size: 28px;
+  }
+}
+@media (max-width: 767px) {
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 24px;
+  }
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    font-size: 24px;
+  }
+  input[type=datetime-local] {
+    font-size: 24px;
+  }
+}
+@media (max-width: 575px) {
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 20px;
+  }
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    font-size: 20px;
+  }
+  input[type=datetime-local] {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=input.module.css.map */

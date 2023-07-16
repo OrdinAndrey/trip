@@ -1,0 +1,195 @@
+.registerForm {
+  position: relative;
+  top: 89px;
+  width: 620px;
+  margin: 0 auto;
+  background: #1c1c1c;
+  border-radius: 26px;
+  padding: 36px 66px 50px;
+  font-size: 32px;
+}
+.registerForm h1 {
+  font-size: 64px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 36px;
+  font-family: 'Antic', sans-serif;
+  font-weight: 400;
+}
+
+.formName {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+.wrapName{
+  display: flex;
+  gap: 30px;
+}
+.error{
+  font: var(--font-m);
+  color: #ff3535;
+}
+.formAcc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.formReg {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Antic', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+.formLink{
+  display: flex;
+  justify-content: center;
+  min-width: 230px;
+  align-items: center;
+  font-family: 'Antic', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.inputReg{
+  width: 100%;
+  height: 85px;
+  border-radius: 14px;
+  padding-left: 23px;
+}
+.inputAcc{
+  width: 100%;
+  height: 85px;
+  border-radius: 14px;
+  padding-left: 23px;
+}
+.registerAuth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+@media (max-width: 1199px) {
+  .registerForm {
+    top: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .registerForm {
+    top: 90px;
+    width: 560px;
+    padding: 28px 58px 82px;
+    font-size: 28px;
+  }
+  .registerForm h1 {
+    font-size: 48px;
+  }
+  .formName {
+    gap: 28px;
+    margin-bottom: 28px;
+  }
+  .formAcc {
+    gap: 28px;
+    margin-bottom: 28px;
+  }
+  .formReg {
+    font-size: 28px;
+  }
+  .inputReg{
+    height: 80px;
+    border-radius: 13px;
+    padding-left: 21px;
+  }
+  .inputAcc {
+    height: 80px;
+    border-radius: 13px;
+    padding-left: 21px;
+  }
+  .formLink {
+    font-size: 28px;
+    min-width: 220px;
+  }
+}
+@media (max-width: 767px) {
+  .registerForm {
+    top: 60px;
+    width: 500px;
+    padding: 20px 50px 74px;
+    font-size: 24px;
+  }
+  .registerForm h1 {
+    font-size: 40px;
+  }
+  .formName {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .formAcc {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .formReg {
+    font-size: 24px;
+  }
+  .inputReg {
+    height: 70px;
+    border-radius: 12px;
+    padding-left: 20px;
+  }
+  .inputAcc {
+    height: 70px;
+    border-radius: 12px;
+    padding-left: 20px;
+  }
+  .formLink {
+    font-size: 24px;
+    min-width: 200px;
+  }
+  .formReg .btnReg{
+    height: 60px;
+  }
+}
+@media (max-width: 575px) {
+  .registerForm {
+    top: 30px;
+    width: 400px;
+    padding: 12px 42px 66px;
+    font-size: 20px;
+  }
+  .registerForm h1 {
+    font-size: 32px;
+  }
+  .formName {
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .formAcc {
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .formReg {
+    font-size: 20px;
+  }
+  .inputReg {
+    height: 60px;
+    border-radius: 11px;
+    padding-left: 18px;
+  }
+  .inputAcc {
+    height: 60px;
+    border-radius: 11px;
+    padding-left: 18px;
+  }
+  .formLink {
+    font-size: 20px;
+    min-width: 160px;
+  }
+  .formReg .btnReg{
+    height: 50px;
+  }
+}

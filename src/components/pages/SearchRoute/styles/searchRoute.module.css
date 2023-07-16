@@ -1,0 +1,169 @@
+.searchRoute {
+  position: relative;
+  top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font: var(--font-l);
+}
+
+.formTrip {
+  max-width: 976px;
+  width: 100%;
+}
+
+.private {
+  font-size: 32px;
+}
+
+.formTrip .inputSmall {
+  max-width: 492px;
+  width: 100%;
+  border: 1px solid #000;
+  height: 85px;
+  border-radius: 14px;
+  padding: 37px;
+}
+
+.formTrip .inputBig {
+  width: 100%;
+  border: 1px solid #000;
+  height: 85px;
+  border-radius: 14px;
+  padding: 0 37px;
+}
+
+.pointsWrap {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  margin-bottom: 15px;
+}
+
+.wrapTrip {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.switchWrap {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.dateWrap {
+  margin-bottom: 15px;
+}
+
+.btnSubmit {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font: var(--font-m);
+  color: #ff3535;
+}
+
+@media (max-width: 1199px) {
+  .searchRoute {
+    top: 110px;
+  }
+  .formTrip {
+    max-width: 900px;
+  }
+}
+@media (max-width: 991px) {
+  .searchRoute {
+    top: 90px;
+  }
+  .formTrip {
+    max-width: 730px;
+  }
+  .formTrip .inputSmall {
+    height: 80px;
+    font-size: 28px;
+  }
+  .formTrip .inputBig {
+    height: 80px;
+    font-size: 28px;
+  }
+  .btnSubmit {
+    width: 200px;
+    height: 65px;
+    font-size: 28px;
+  }
+  .private {
+    font-size: 28px;
+  }
+  .pointsWrap {
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .searchRoute {
+    top: 70px;
+  }
+  .formTrip {
+    max-width: 550px;
+  }
+  .formTrip .inputSmall {
+    height: 75px;
+    font-size: 22px;
+  }
+  .formTrip .inputBig {
+    height: 75px;
+    font-size: 22px;
+  }
+  .btnSubmit {
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+  }
+  .private {
+    font-size: 24px;
+  }
+  .pointsWrap {
+    gap: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .searchRoute {
+    top: 60px;
+  }
+  .formTrip {
+    width: 100%;
+  }
+  .formTrip .inputSmall {
+    height: 70px;
+    font-size: 20px;
+  }
+  .formTrip .inputBig {
+    height: 70px;
+    font-size: 20px;
+  }
+  .btnSubmit {
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .private {
+    font-size: 20px;
+  }
+  .pointsWrap {
+    gap: 15px;
+  }
+}
+
+/*# sourceMappingURL=searchRoute.module.css.map */

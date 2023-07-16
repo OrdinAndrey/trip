@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: "Antic", sans-serif;
+  font-weight: 400;
+}
+
+.container .head {
+  color: var(--bg-grey);
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font: var(--font-l);
+}
+
+/*# sourceMappingURL=main.module.css.map */

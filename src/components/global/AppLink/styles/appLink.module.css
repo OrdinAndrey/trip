@@ -1,0 +1,37 @@
+.appLink {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.appLink:global.active {
+  color: var(--bg-grey);
+}
+
+.badge,
+.badgeDisable {
+  margin-left: 5px;
+  border-radius: 50%;
+  font-size: 16px;
+  position: relative;
+  top: -15px;
+  border: 2px solid #fff;
+}
+
+.badge {
+  padding: 1px 6px;
+  background-color: var(--bg-grey);
+  color: var(--secondary-color);
+}
+
+.badgeDisable {
+  padding: 2px 6px;
+  background-color: var(--primary-color);
+  color: var(--bg-grey);
+}
+
+nav .disable {
+  pointer-events: none;
+  text-decoration: none;
+  color: #6a6a6a;
+}
+
+/*# sourceMappingURL=appLink.module.css.map */

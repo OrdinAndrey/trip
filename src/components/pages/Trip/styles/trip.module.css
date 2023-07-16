@@ -1,0 +1,108 @@
+.trip {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 0 58px;
+}
+
+.tripWrap,
+.dateWrap {
+  width: 100%;
+}
+
+.tripNum {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 9px;
+}
+
+.tripDest {
+  color: #6a6a6a;
+}
+
+.tripDate {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tripNum,
+.tripDest,
+.tripDate {
+  max-width: 825px;
+  width: 100%;
+  font: var(--font-l);
+}
+
+.dateWrap {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.tripHr {
+  margin-bottom: 25px;
+}
+
+.tripClass {
+  display: flex;
+  align-items: center;
+  font: var(--font-s);
+}
+
+.btnWrap {
+  display: flex;
+  align-items: center;
+}
+
+.btnDelete {
+  height: 35px;
+  width: 35px;
+}
+
+.wrapGoBack {
+  display: flex;
+  align-items: center;
+}
+
+.btnGoBack {
+  height: 35px;
+  width: 35px;
+  margin: 0 15px 5px 0;
+}
+
+@media (max-width: 1199px) {
+  .trip {
+    margin-bottom: 25px;
+    padding: 0 25px;
+  }
+}
+@media (max-width: 991px) {
+  .tripNum,
+  .tripDest,
+  .tripDate {
+    font: var(--font-s);
+  }
+  .tripClass {
+    font: var(--font-m);
+  }
+}
+@media (max-width: 767px) {
+  .tripNum,
+  .tripDest,
+  .tripDate {
+    font: var(--font-m);
+  }
+  .tripClass {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .tripNum,
+  .tripDest,
+  .tripDate {
+    font: var(--font-m);
+  }
+}
+
+/*# sourceMappingURL=trip.module.css.map */

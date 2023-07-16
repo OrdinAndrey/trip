@@ -1,0 +1,64 @@
+.routePage {
+  position: relative;
+  top: 50px;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.notRoute {
+  font: var(--font-l);
+}
+
+.sizeMap {
+  width: 1000px;
+  height: 500px;
+}
+
+.mapWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1199px) {
+  .sizeMap {
+    width: 900px;
+    height: 450px;
+  }
+  .routePage {
+    top: 40px;
+    max-width: 950px;
+  }
+}
+@media (max-width: 991px) {
+  .sizeMap {
+    width: 700px;
+    height: 400px;
+  }
+  .routePage {
+    top: 30px;
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .sizeMap {
+    width: 550px;
+    height: 350px;
+  }
+  .routePage {
+    top: 20px;
+    max-width: 560px;
+  }
+}
+@media (max-width: 575px) {
+  .sizeMap {
+    width: 450px;
+    height: 250px;
+  }
+  .routePage {
+    top: 10px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=routePage.module.css.map */

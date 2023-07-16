@@ -1,0 +1,13 @@
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: var(--font-l);
+  height: 100%;
+}
+
+.notFound h1 {
+  font: var(--font-l);
+}
+
+/*# sourceMappingURL=notFound.module.css.map */
