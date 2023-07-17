@@ -6,5 +6,5 @@ export interface PropsInterface extends InputHTMLAttributes<HTMLInputElement> {
   onChange?: ChangeEventHandler<HTMLInputElement>
   type?: string
   control?: ReactElement
-  checked: boolean
+  checked?: boolean
 }

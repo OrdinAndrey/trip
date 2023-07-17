@@ -2,7 +2,13 @@ import { Register, RegisterSchema } from '../types/registerSchema.ts'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 export const initialState: RegisterSchema = {
-  values: {},
+  values: {
+    firstname: '',
+    lastname: '',
+    email: '',
+    password: '',
+    confirmPassword: ''
+  },
   isLoading: false,
   error: ''
 }

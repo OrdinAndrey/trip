@@ -5,11 +5,11 @@ import { getTripState } from '@/store/reducers/trip'
 const useRoutePage = () => {
   const apiKey = import.meta.env.VITE_YANDEX_KEY
   const mapState = { center: [55.750625, 37.626], zoom: 7 }
-  const [ymaps, setYmaps] = useState(null)
+  const [ymaps, setYmaps] = useState<any>(null)
   const routes = useRef(null)
   const { departurePoint, destination } = useSelector(getTripState)
 
-  const getRoute = (ref) => {
+  const getRoute = (ref: any) => {
     if (ymaps) {
       const multiRoute = new ymaps.multiRouter.MultiRoute(
         {

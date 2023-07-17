@@ -90,7 +90,6 @@ const SearchRoute = () => {
               onBlur={formControl.handleBlur}
               control={<BaseCheckbox checked={formControl.values.private} />}
               onChange={formControl.handleChange}
-              checked
             />
             <div className={styles.private}>
               {formControl.values.private ? 'Business' : 'Comfort'}
