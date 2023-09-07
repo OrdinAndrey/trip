@@ -1,6 +1,6 @@
 ## Приложение для поиска маршрута путешествия
 
-<p align="center"><a href="https://ordinandrey.github.io/trip">Triplify</a></p>  
+<p align="center"><a href="https://ordinandrey.github.io/trip" target='_blank'>Triplify</a></p>  
 
 <p align="center">
   Позволяет быстро найти ближайший маршрут между двумя населенными пунктами для поездки на автомобиле.
